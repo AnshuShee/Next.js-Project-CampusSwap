@@ -19,8 +19,8 @@ const seedDatabase = async () => {
 
     // 1. Create 3 realistic Indian B.Tech Students
     const student1 = await User.create({
-      name: 'Aarav Sharma',
-      email: 'aarav.sharma@college.edu.in',
+      name: 'Anshu Shee',
+      email: 'anshu.shee@college.edu.in',
       password: 'password123',
       department: 'B.Tech CSE',
       year: '2nd Year',
@@ -51,7 +51,7 @@ const seedDatabase = async () => {
       phoneOrHandle: 'rohan.verma@college.edu.in',
     });
 
-    console.log('[Seed] Created 3 students (Aarav, Priya, Rohan)');
+    console.log('[Seed] Created 3 students (Anshu, Priya, Rohan)');
 
     // 2. Create 8 realistic college listings with prices in INR (₹)
     const listings = await Listing.create([
@@ -162,7 +162,7 @@ const seedDatabase = async () => {
         listing: listings[0]._id,
         buyer: student2._id,
         seller: student1._id,
-        message: 'Hi Aarav, can I pick this up today around 6 PM from Block A reception? Would you take ₹400?',
+        message: 'Hi Anshu, can I pick this up today around 6 PM from Block A reception? Would you take ₹400?',
         offerPrice: 400,
         status: 'Pending',
         isReadByBuyer: true,

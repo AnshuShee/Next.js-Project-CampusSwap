@@ -62,7 +62,7 @@ A full-stack college marketplace web application built for university students t
    - **Sent Offers**: Track negotiation status (Pending, Accepted, Rejected) with unread notification badges.
    - **Saved Favorites**: Bookmark items with availability status alerts.
 5. **Instant Demo Student Switcher**:
-   - Switch between pre-seeded student accounts (Aarav, Priya, Rohan) in one click for instant viva / evaluation testing without OTP hurdles.
+   - Switch between pre-seeded student accounts (Anshu, Priya, Rohan) in one click for instant viva / evaluation testing without OTP hurdles.
 
 ---
 
